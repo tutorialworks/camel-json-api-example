@@ -6,17 +6,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
-public class SportService {
+public class SportRepository {
 
     private List<Sport> sports;
 
-    public SportService() {
+    public SportRepository() {
         sports = new ArrayList<>();
-        sports.add(new Sport("Football"));
-        sports.add(new Sport("Basketball"));
-        sports.add(new Sport("Baseball"));
-        sports.add(new Sport("Hockey"));
-        sports.add(new Sport("Soccer"));
+        sports.add(new Sport("American Football", 11, "NFL"));
+        sports.add(new Sport("Basketball", 5, "NBA"));
+        sports.add(new Sport("Baseball", 9, "MLB"));
+        sports.add(new Sport("Volleyball", 6, "NVA"));
+
     }
 
     public List<Sport> getSports() {
@@ -26,6 +26,5 @@ public class SportService {
     public void addSport(Sport sport) {
         sports.add(sport);
     }
-
 
 }
