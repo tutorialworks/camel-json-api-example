@@ -3,8 +3,17 @@ package com.tutorialworks.camel.sportsapi;
 public class Sport {
 
     private String name;
-    private int teamMembers;
-    private String venue;
+    private int players;
+    private String league;
+
+    public Sport() {
+    }
+
+    public Sport(String name, int players, String league) {
+        this.name = name;
+        this.players = players;
+        this.league = league;
+    }
 
     public String getName() {
         return name;
@@ -14,19 +23,28 @@ public class Sport {
         this.name = name;
     }
 
-    public int getTeamMembers() {
-        return teamMembers;
+    public int getPlayers() {
+        return players;
     }
 
-    public void setTeamMembers(int teamMembers) {
-        this.teamMembers = teamMembers;
+    public void setPlayers(int players) {
+        this.players = players;
     }
 
-    public String getVenue() {
-        return venue;
+    public String getLeague() {
+        return league;
     }
 
-    public void setVenue(String venue) {
-        this.venue = venue;
+    public void setLeague(String league) {
+        this.league = league;
+    }
+
+    @Override
+    public String toString() {
+        return "Sport{" +
+                "name='" + name + '\'' +
+                ", players=" + players +
+                ", league='" + league + '\'' +
+                '}';
     }
 }
