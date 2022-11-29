@@ -78,6 +78,8 @@ We're keeping it simple here, using a simple Java object to store the sports. Bu
 
 This project is licensed under the Apache License, Version 2.0. See the [LICENSE][license] file for more info.
 
+Thumbnail by <a href="https://www.freepik.com/free-vector/seamless-sports-pattern-background_4556838.htm#query=sports&position=8&from_view=search&track=sph">Image by macrovector_official</a> on Freepik
+
 [youtube]: https://www.youtube.com/watch?v=YpVVXDnZLPo
 [blog]: https://tomd.xyz/camel-rest/
 [maven]: https://maven.apache.org/
